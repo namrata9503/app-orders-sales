@@ -1,0 +1,28 @@
+<section>
+<div class="container">
+    <div class="heading">
+        <h1>Orders</h1>
+        <button (click)="addOrders()">Add  +</button>
+    </div>
+
+    <div class="table-wraper">
+        <table class="f1-table">
+                <tr>
+                    <th>ID</th>
+                    <th>Description</th>
+                </tr>
+                <tr *ngFor="let item of salesData">
+                    <td>{{ item.id }}</td>
+                    <td>{{ item.description }}</td>
+                    <td>
+                        <span class="material-symbols-outlined">delete</span>
+                    </td>
+                    <td (click)="deleteOrders()">
+                        <span class="material-symbols-outlined">edit</span>
+                    </td>
+                </tr>
+        </table>
+
+    </div>
+</div>
+</section>

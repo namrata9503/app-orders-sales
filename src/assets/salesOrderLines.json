@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "salesOrderId": 12345,
+      "articles": "article 1",
+      "amount": 100.50
+    },
+    {
+      "id": 2,
+      "salesOrderId": 12346,
+      "articles": "wonderful joy",
+      "amount": 500.50
+    },
+    {
+      "id": 3,
+      "salesOrderId": 12347,
+      "articles": "ditto pinch",
+      "amount": 140.50
+    }
+   
+  ]
